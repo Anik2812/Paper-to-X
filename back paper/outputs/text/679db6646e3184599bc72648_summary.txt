@@ -1,0 +1,33 @@
+**Key Points: Integrating Generative AI for Enhanced Automation in System Design Processes**
+
+**Introduction:**
+* Generative AI (Gen AI) and Large Language Models (LLMs) offer advancements in system design.
+* This research focuses on how Gen AI can enhance the efficiency and accuracy of system design documentation.
+
+**Gen AI in System Engineering:**
+* LLMs enable automation, innovative solutions, and insights in system design.
+* They accelerate design tasks and enhance system quality.
+* Evaluating LLM-generated design content is crucial for accuracy, reliability, and safety.
+
+**System Design Generation and Evaluation Methods:**
+* **SE Assistant:** LLM-based tool for generating System Design Documents (DesDocs) using Multimodal Retrieval Augmented Generation (M-RAG).
+* **Generation:**
+    * Uses M-RAG pipeline to provide context-specific system design knowledge.
+    * Employs GPT-4 for content generation based on input system requirements.
+* **Evaluation:**
+    * Uses LLMs and engineers to evaluate DesDoc against criteria like technical accuracy, compliance, and innovation.
+    * LLMs provide data-driven evaluations, while engineers provide human insights.
+
+**Implementation Flow:**
+* Defines evaluation criteria for DesDoc quality.
+* Generation flow creates a DesDoc using M-RAG.
+* Evaluation flow evaluates DesDoc using LLMs and engineers.
+* Combined score is used for improvement.
+
+**Discussion:**
+* Results show that M-RAG significantly improves the quality of DesDocs compared to baselines.
+* The SE Assistant tool enhances efficiency and accuracy in system design.
+
+**Conclusion:**
+* Gen AI, integrated through the SE Assistant, improves system design documentation in complex systems.
+* Future work will focus on incorporating dynamic feedback mechanisms.
